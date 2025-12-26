@@ -1,0 +1,53 @@
+.about-me {
+  width: 100%
+}
+
+.about-me__container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 2rem auto 5rem;
+  display: block;
+  gap: 2rem;
+}
+
+.about-me__texts {
+  margin-bottom: 30px;
+}
+
+.about-me__section-title,
+.about-me__paragraph {
+  margin-bottom: 10px;
+}
+
+.about-me__heading {
+  font-size: clamp(1.5rem, 0.5rem + 2vw, 2.4rem);
+  margin-bottom: 20px;
+}
+
+.about-me__tech {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 600px) {
+  .about-me__paragraph {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about-me__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me__texts {
+    width: 48%;
+  }
+
+  .about-me__tech {
+    width: 42%;
+  }
+}

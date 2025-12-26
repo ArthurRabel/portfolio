@@ -1,0 +1,117 @@
+{
+  "header": {
+    "controls": {
+      "light": "Claro",
+      "dark": "Escuro"
+    }
+  },
+  "navigation": {
+    "sections": {
+      "about": "Sobre mim",
+      "experiences": "Experiências",
+      "feedback": "Feedbacks"
+    }
+  },
+  "social": {
+    "title": "Redes Sociais",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "E-mail",
+    "phone": "Telefone"
+  },
+  "hero": {
+    "name": "Arthur Rabelo",
+    "role": "Desenvolvedor Fullstack com experiência em Next.js, NestJS, FastAPI, TypeScript e Python",
+    "curriculum": "Currículo"
+  },
+  "aboutMe": {
+    "title": "Sobre mim",
+    "subtitle": "Dominando a jornada completa do desenvolvimento",
+    "description1": "Desenvolvedor Full Stack com mais de dois anos de experiência, focado em criar soluções eficientes e escaláveis. Graduando em Análise e Desenvolvimento de Sistemas, tenho histórico de liderança técnica em projetos acadêmicos, guiando equipes no desenvolvimento de aplicações completas.",
+    "description2": "Minha trajetória inclui experiência prática no desenvolvimento de sistemas de georreferenciamento, com atuação abrangente em Back-end, Front-end e Infraestrutura. Movido pela paixão por tecnologia, me mantenho em constante aprendizado, dominando novas ferramentas para superar desafios complexos.",
+    "tech": {
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "devops": "DevOps"
+    }
+  },
+  "experiences": {
+    "title": "Minhas Experiências",
+    "subtitle": "Em cada posição, tive a oportunidade de crescer e contribuir significativamente.",
+    "items": [
+      {
+        "title": "Desenvolvedor Full Stack ",
+        "company": "Polícia Federal",
+        "date": "04/2024 • 12/2025",
+        "description": "Durante meu estagio, atuei no desevolvimento e manutenção do inteligeo, plataforma de dados geoespaciais.",
+        "backgroundImage": "images/policia-federal.jpg",
+        "tasks": [
+          "Desenvolvi e mantive APIs com FastAPI, garantindo segurança, robustez e escalabilidade.",
+          "Realizei integração com APIs externas de imagens de satélite, incluindo automação de renovação de credenciais.",
+          "Refatorei e expandi funcionalidades de um plugin QGIS em Python, aumentando confiabilidade e organização do código.",
+          "Implementei testes unitários e de integração com Pytest, fortalecendo a cobertura e a qualidade do sistema."
+        ],
+        "accessUrl": ""
+      },
+      {
+        "title": "Desenvolvedor Full Stack",
+        "company": "Instituto de educação superior de brasília ",
+        "date": "07/2024 • 12/2025",
+        "description": "Projeto complementar do curso, onde liderei o desenvolvimento de uma aplicação web completa para gerenciamento de tarefas.",
+        "backgroundImage": "images/iesb.png",
+        "tasks": [
+          "Conduzi uma equipe de desenvolvedores, organizando tarefas, prazos e padrões técnicos.",
+          "Implementei autenticação integrada entre Next.js e NestJS, com login tradicional e OAuth (Google e Microsoft).",
+          "Configurei infraestrutura utilizando Docker Compose e kubernetes, com deploy em ambiente AWS.",
+          "Apliquei práticas de segurança com OWASP ZAP, SonarQube e hardening de serviços."
+        ],
+        "accessUrl": "https://github.com/fabrica-bayarea/Sprint-Tracker"
+      },
+      {
+        "title": "Técnico de TI",
+        "company": "Exército Brasileiro",
+        "date": "02/2023 • 02/2024",
+        "description": "Durante o serviço obritatório, atuei na seção de informatica do quartel, realizando manutenção de sistemas e infraestrutura de TI.",
+        "backgroundImage": "images/exercito.png",
+        "tasks": [
+          "Refatorei completamente o front-end de um sistema interno de gerenciamento de veículos.",
+          "Executei manutenção na infraestrutura, aplicando atualizações e garantindo estabilidade e segurança.",
+          "Colaborei na organização e documentação de processos técnicos essenciais para o setor."
+        ],
+        "accessUrl": ""
+      }
+    ]
+  },
+  "experienceCard": {
+    "viewMore": "Ver mais"
+  },
+  "feedback": {
+    "title": "Depoimentos",
+    "subtitle": "Um pouco do que as pessoas dizem sobre mim.",
+    "items": [
+      {
+        "name": "Daniel Araujo",
+        "role": "Perito Criminal Federal",
+        "feedback": "Como estagiário no Serviço de Geomática - SEGEO/DITEC na Polícia Federal, o Arthur demonstrou iniciativa, autonomia, habilidade de comunicação e capacidade analítica. Executou com eficiência tarefas complexas e de escopo aberto, como configurar o cluster experimental de IA e fotogrametria do setor, encontrar soluções para o fluxo de CI do Inteligeo, implementar componentes de integração no aplicativo QGIS e resolver várias demandas relacionadas a frontend e backend."
+      },
+      {
+        "name": "Aurélio Vieira",
+        "role": "Desenvolvedor Web",
+        "feedback": "Tive a oportunidade de ter Arthur como líder em um projeto de solução web no BayArea/IESB. Ele sempre demonstrou grande conhecimento técnico, capacidade de organização e visão estratégica, além de uma postura colaborativa que inspirava confiança no time. Sua liderança uniu competência técnica e habilidade de gestão, garantindo o bom andamento do projeto e a entrega de resultados consistentes. Recomendo Arthur como um profissional altamente qualificado e preparado para desafios complexos."
+      },
+      {
+        "name": "Lara Júlia",
+        "role": "Assistente de Projetos",
+        "feedback": "Tenho a sorte de trabalhar ao lado do Arthur no Bay Area, pois ele é um profissional com um conhecimento técnico fora da curva. Arthur é um líder organizado, comprometido e competente, qualidades que se refletem diretamente na qualidade e no avanço do seu projeto. Sua forma de conduzir as atividades transmite segurança e inspira o time. Além disso, ele tem sido fundamental para o meu aprendizado: sempre disponível e paciente para explicar conceitos técnicos, apoiando meu crescimento e garantindo que eu acompanhe cada etapa com clareza. É uma referência no projeto tanto pela capacidade técnica quanto pela sua liderança."
+      },
+      {
+        "name": "Pedro Gress",
+        "role": "Profissional em Cibersegurança, Ex-Sargento do Exército Brasileiro",
+        "feedback": "É com grata satisfação que venho falar de Arthur Rabelo, com quem tive o privilégio de trabalhar ao longo de 2023. Embora tenha sido uma estadia relativamente curta, ele deixou uma impressão duradoura por sua competência técnica, ética de trabalho exemplar e compromisso com a excelência. Apesar de sua natureza mais reservada, Arthur destacou-se por sua capacidade de trabalhar bem em equipe e de forma colaborativa. Não se engane com seu perfil reservado, pois sempre esteve disposto a ajudar os colegas, a contribuir para o sucesso do grupo com dedicação e competência, o que o tornou um membro distinto entre seus pares."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "© {{year}} Arthur da Mata Rabelo. Todos os direitos reservados."
+  }
+}

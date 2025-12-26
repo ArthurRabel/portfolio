@@ -1,0 +1,36 @@
+.feedback__wrapper {
+  width: 85%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 4rem 0 8rem;
+}
+
+.feedback__title {
+  font-size: clamp(1.8rem, 1rem + 4vw, 2rem);
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+
+.feedback__subtitle {
+  width: 100%;
+  margin: auto;
+  font-size: 1.1rem;
+  margin-bottom: 4rem;
+}
+
+.feedback .swiper-pagination-bullet {
+  background: var(--text-secondary) !important;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  width: 12px;
+  height: 12px;
+}
+
+.feedback .swiper-pagination-bullet-active {
+  background: var(--text-secondary) !important;
+  opacity: 1;
+}
+
+.feedback .swiper {
+  padding-bottom: 3rem;
+}

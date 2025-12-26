@@ -1,0 +1,188 @@
+/* Tema Light */
+:root[data-theme="light"] {
+  /* Backgrounds */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-tertiary: #fafafa;
+  --bg-hover: #e8e8e8;
+  --bg-active: #d0d0d0;
+
+  /* Text Colors */
+  --text-primary: rgb(33, 53, 71);
+  --text-secondary: rgb(100, 100, 100);
+  --text-tertiary: rgb(136, 136, 136);
+  --text-disabled: rgb(176, 176, 176);
+  --text-transparent: rgba(33, 53, 71, 0.78);
+  --shine-color: rgb(211, 211, 211);
+
+  /* Border Colors */
+  --border-color: #e0e0e0;
+  --border-hover: #c0c0c0;
+
+  /* Secondary Colors */
+  --secondary-color: #6c757d;
+  --secondary-hover: #5a6268;
+
+  /* Success/Error/Warning */
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}
+
+/* Tema Dark */
+:root[data-theme="dark"] {
+  /* Backgrounds */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --bg-tertiary: #2a2a2a;
+  --bg-hover: #2a2a2a;
+  --bg-active: #333333;
+
+  /* Text Colors */
+  --text-primary: rgba(255, 255, 255, 0.9);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-tertiary: rgba(255, 255, 255, 0.4);
+  --text-disabled: rgba(255, 255, 255, 0.3);
+  --text-transparent: rgba(255, 255, 255, 0.78);
+
+  /* Border Colors */
+  --border-color: #3a3a3a;
+  --border-hover: #4a4a4a;
+
+  /* Secondary Colors */
+  --secondary-color: #6c757d;
+  --secondary-hover: #7d8a96;
+
+  /* Success/Error/Warning */
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --warning-color: #f39c12;
+  --info-color: #3498db;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--text-primary);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.shiny-title {
+  background: linear-gradient(120deg,
+      var(--transparent-color) 40%,
+      var(--shine-color) 55%,
+      var(--transparent-color) 60%);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shine-text 3s linear infinite;
+}
+
+:root[data-theme="light"] {
+  --shine-color: #d3d3d3;
+  --transparent-color: rgba(33, 53, 71, 0.78);
+}
+
+:root[data-theme="dark"] {
+  --shine-color: rgb(255, 255, 255);
+  --transparent-color: rgba(218, 218, 218, 0.664);
+}
+
+@keyframes shine-text {
+  to {
+    background-position: -200% center;
+  }
+}

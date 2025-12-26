@@ -1,0 +1,45 @@
+.experiences {
+  background-color: var(--bg-secondary);
+  padding: 4rem 0 2rem;
+}
+
+.experiences__wrapper {
+  width: 85%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.experiences__title {
+  font-size: clamp(1.8rem, 1rem + 4vw, 4rem);
+  text-align: center;
+  margin: 3rem 0 1rem;
+}
+
+.experiences__subtitle {
+  width: 100%;
+  margin: auto;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.experiences__cards {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.experiences__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 601px) {
+  .experiences__subtitle {
+    width: 80%;
+  }
+
+  .experiences__list {
+    margin-top: 100px;
+  }
+}

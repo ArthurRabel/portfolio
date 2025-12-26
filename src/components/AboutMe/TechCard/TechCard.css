@@ -1,0 +1,46 @@
+.about-me__tech-card {
+  background-color: transparent;
+  padding: 0.9rem 1.4rem 1.4rem;
+  width: 100%;
+  background-color: var(--bg-secondary);
+}
+
+.about-me__tech-card:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.about-me__tech-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.about-me__tech-card h4 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+}
+
+.about-me__tech-card ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.about-me__tech-card li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 5px 3px 0;
+  cursor: default;
+}
+
+.about-me__tech-card li:not(:last-child)::after {
+  content: " |";
+  color: #888;
+}
+
+@media (min-width: 768px) {
+  .about-me__tech-card {
+    padding: 1.2rem 1.7rem 1.7rem;
+  }
+}

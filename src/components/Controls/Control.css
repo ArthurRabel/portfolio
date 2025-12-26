@@ -1,0 +1,14 @@
+.Controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 600px) {
+  .Controls {
+    padding: 1.5rem 1rem;
+  }
+}
