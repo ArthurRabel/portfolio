@@ -40,11 +40,23 @@
     "subtitle": "In every role, I have had the opportunity to grow and contribute significantly.",
     "items": [
       {
-        "title": "Full Stack Developer",
+        "title": "Full Stack Developer (Internship)",
         "company": "Federal Police",
-        "date": "04/2024 • 12/2025",
+        "date": "04/2024 – 12/2025",
         "description": "During my internship, I worked on the development and maintenance of Inteligeo, a geospatial data platform.",
-        "backgroundImage": "images/policia-federal.jpg",
+        "icon": "images/icon-federal-police.png",
+        "tech": [
+          "FastAPI",
+          "Python",
+          "QGIS",
+          "React",
+          "Podman",
+          "PostgreSQL",
+          "Alembic",
+          "Pytest",
+          "GitLab CI/CD",
+          "Linux"
+        ],
         "tasks": [
           "Developed and maintained APIs with FastAPI, ensuring security, robustness, and scalability.",
           "Integrated external satellite imagery APIs, including automated credential renewal.",
@@ -53,6 +65,39 @@
         ],
         "accessUrl": ""
       },
+      {
+        "title": "IT Technician (Mandatory Service)",
+        "company": "Brazilian Army",
+        "date": "02/2023 – 02/2024",
+        "description": "During mandatory service, I worked in the IT section of the barracks, performing system maintenance and IT infrastructure.",
+        "icon": "images/icon-army.png",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "Linux",
+          "Windows",
+          "Networks"
+        ],
+        "tasks": [
+          "Completely refactored the front-end of an internal vehicle management system.",
+          "Executed infrastructure maintenance, applying updates and ensuring stability and security.",
+          "Collaborated in organizing and documenting essential technical processes for the sector."
+        ],
+        "accessUrl": ""
+      }
+    ]
+  },
+  "experienceCard": {
+    "viewMore": "View more"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of the projects I've worked on.",
+    "accessGithub": "Access on GitHub",
+    "items": [
       {
         "title": "Full Stack Developer",
         "company": "Brasília Higher Education Institute",
@@ -66,24 +111,8 @@
           "Applied security practices with OWASP ZAP, SonarQube, and service hardening."
         ],
         "accessUrl": "https://github.com/fabrica-bayarea/Sprint-Tracker"
-      },
-      {
-        "title": "IT Technician",
-        "company": "Brazilian Army",
-        "date": "02/2023 • 02/2024",
-        "description": "During my mandatory service, I worked in the IT section of the barracks, maintaining systems and IT infrastructure.",
-        "backgroundImage": "images/exercito.png",
-        "tasks": [
-          "Completely refactored the front-end of an internal vehicle management system.",
-          "Executed infrastructure maintenance, applying updates and ensuring stability and security.",
-          "Collaborated in organizing and documenting essential technical processes for the sector."
-        ],
-        "accessUrl": ""
       }
     ]
-  },
-  "experienceCard": {
-    "viewMore": "View more"
   },
   "feedback": {
     "title": "Testimonials",

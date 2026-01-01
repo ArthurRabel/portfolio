@@ -45,9 +45,11 @@ export const Experiences = () => {
               company={experienceItem.company}
               date={experienceItem.date}
               description={experienceItem.description}
-              backgroundImage={experienceItem.backgroundImage}
+              icon={experienceItem.icon}
               tasks={experienceItem.tasks}
+              tech={experienceItem.tech}
               accessUrl={experienceItem.accessUrl}
+              isLast={experienceIndex === experienceItems.length - 1}
             />
           ))}
         </div>

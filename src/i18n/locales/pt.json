@@ -40,23 +40,67 @@
     "subtitle": "Em cada posição, tive a oportunidade de crescer e contribuir significativamente.",
     "items": [
       {
-        "title": "Desenvolvedor Full Stack ",
+        "title": "Desenvolvedor Full Stack (Estágio)",
         "company": "Polícia Federal",
-        "date": "04/2024 • 12/2025",
-        "description": "Durante meu estagio, atuei no desevolvimento e manutenção do inteligeo, plataforma de dados geoespaciais.",
-        "backgroundImage": "images/policia-federal.jpg",
+        "date": "04/2024 – 12/2025",
+        "description": "Durante meu estágio, atuei no desenvolvimento e manutenção do inteligeo, plataforma de dados geoespaciais.",
+        "icon": "images/icon-federal-police.png",
+        "tech": [
+          "FastAPI",
+          "Python",
+          "QGIS",
+          "React",
+          "Podman",
+          "PostgreSQL",
+          "Alembic",
+          "Pytest",
+          "GitLab CI/CD",
+          "Linux"
+        ],
         "tasks": [
           "Desenvolvi e mantive APIs com FastAPI, garantindo segurança, robustez e escalabilidade.",
           "Realizei integração com APIs externas de imagens de satélite, incluindo automação de renovação de credenciais.",
           "Refatorei e expandi funcionalidades de um plugin QGIS em Python, aumentando confiabilidade e organização do código.",
-          "Implementei testes unitários e de integração com Pytest, fortalecendo a cobertura e a qualidade do sistema."
+          "Melhorei testes unitários e de integração com Pytest, fortalecendo a cobertura e a qualidade do sistema.",
+          "Implementei um pipeline de CI no GitLab, melhorando o processo de compilação."
         ],
         "accessUrl": ""
       },
       {
+        "title": "Técnico de TI (Serviço Obrigatório)",
+        "company": "Exército Brasileiro",
+        "date": "02/2023 – 02/2024",
+        "description": "Durante o serviço obrigatório, atuei na seção de informática do quartel, realizando manutenção de sistemas e infraestrutura de TI.",
+        "icon": "images/icon-army.png",
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "Linux",
+          "Windows",
+          "Redes"
+        ],
+        "tasks": [
+          "Refatorei completamente o front-end de um sistema interno de gerenciamento de veículos.",
+          "Executei manutenção na infraestrutura, aplicando atualizações e garantindo estabilidade e segurança.",
+          "Colaborei na organização e documentação de processos técnicos essenciais para o setor.",
+          "Administração de rede utilizando pfSense, realizando controle de acesso e gerenciamento de IPs para garantir a organização da infraestrutura."
+        ],
+        "accessUrl": ""
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Alguns dos projetos em que trabalhei.",
+    "accessGithub": "Acesse no GitHub",
+    "items": [
+      {
         "title": "Desenvolvedor Full Stack",
         "company": "Instituto de educação superior de brasília ",
-        "date": "07/2024 • 12/2025",
+        "date": "07/2024 – 12/2025",
         "description": "Projeto complementar do curso, onde liderei o desenvolvimento de uma aplicação web completa para gerenciamento de tarefas.",
         "backgroundImage": "images/iesb.png",
         "tasks": [
@@ -66,24 +110,8 @@
           "Apliquei práticas de segurança com OWASP ZAP, SonarQube e hardening de serviços."
         ],
         "accessUrl": "https://github.com/fabrica-bayarea/Sprint-Tracker"
-      },
-      {
-        "title": "Técnico de TI",
-        "company": "Exército Brasileiro",
-        "date": "02/2023 • 02/2024",
-        "description": "Durante o serviço obritatório, atuei na seção de informatica do quartel, realizando manutenção de sistemas e infraestrutura de TI.",
-        "backgroundImage": "images/exercito.png",
-        "tasks": [
-          "Refatorei completamente o front-end de um sistema interno de gerenciamento de veículos.",
-          "Executei manutenção na infraestrutura, aplicando atualizações e garantindo estabilidade e segurança.",
-          "Colaborei na organização e documentação de processos técnicos essenciais para o setor."
-        ],
-        "accessUrl": ""
       }
     ]
-  },
-  "experienceCard": {
-    "viewMore": "Ver mais"
   },
   "feedback": {
     "title": "Depoimentos",
