@@ -42,11 +42,11 @@ export const ExperienceCard = ({
               />
             )}
             <div>
+              <p className="experience-card__title">{title}</p>
               <p className="experience-card__company-date">
                 {company}&nbsp;
                 <span className="experience-card__date mobile-only">{date}</span>
               </p>
-              <p className="experience-card__title">{title}</p>
             </div>
           </div>
           <p className="experience-card__description">{description}</p>
