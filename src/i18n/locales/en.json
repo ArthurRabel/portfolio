@@ -61,7 +61,8 @@
           "Developed and maintained APIs with FastAPI, ensuring security, robustness, and scalability.",
           "Integrated external satellite imagery APIs, including automated credential renewal.",
           "Refactored and expanded functionalities of a QGIS plugin in Python, increasing code reliability and organization.",
-          "Implemented unit and integration tests with Pytest, strengthening system coverage and quality."
+          "Implemented unit and integration tests with Pytest, strengthening system coverage and quality.",
+          "Implemented a CI pipeline in GitLab, improving the build process."
         ],
         "accessUrl": ""
       },
@@ -84,14 +85,12 @@
         "tasks": [
           "Completely refactored the front-end of an internal vehicle management system.",
           "Executed infrastructure maintenance, applying updates and ensuring stability and security.",
-          "Collaborated in organizing and documenting essential technical processes for the sector."
+          "Collaborated in organizing and documenting essential technical processes for the sector.",
+          "Network administration using pfSense, performing access control and IP management to ensure infrastructure organization."
         ],
         "accessUrl": ""
       }
     ]
-  },
-  "experienceCard": {
-    "viewMore": "View more"
   },
   "projects": {
     "title": "Projects",
@@ -99,11 +98,12 @@
     "accessGithub": "Access on GitHub",
     "items": [
       {
-        "title": "Full Stack Developer",
+        "title": "Sprint Tracker",
         "company": "Brasília Higher Education Institute",
-        "date": "07/2024 • 12/2025",
+        "date": "07/2024 – 12/2025",
         "description": "Academic project where I led the development of a complete web application for task management.",
         "icon": "images/icon-iesb.png",
+        "image": "images/sprint-tracker.png",
         "tech": [
           "Next.js",
           "NestJS",
