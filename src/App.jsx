@@ -5,6 +5,7 @@ import { loadSlim } from "@tsparticles/slim";
 
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Experiences } from "./components/Experiences/Experiences";
+import { Projects } from "./components/Projects/Projects";
 import { Feedback } from "./components/Feedback/Feedback";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
@@ -35,6 +36,7 @@ export const App = () => {
       <Hero />
       <AboutMe />
       <Experiences />
+      <Projects />
       <Feedback />
       <Footer />
     </div>

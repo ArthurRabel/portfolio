@@ -103,7 +103,19 @@
         "company": "Brasília Higher Education Institute",
         "date": "07/2024 • 12/2025",
         "description": "Academic project where I led the development of a complete web application for task management.",
-        "backgroundImage": "images/iesb.png",
+        "icon": "images/icon-iesb.png",
+        "tech": [
+          "Next.js",
+          "NestJS",
+          "TypeScript",
+          "Docker",
+          "Kubernetes",
+          "AWS",
+          "OAuth",
+          "PostgreSQL",
+          "Prisma",
+          "Jest"
+        ],
         "tasks": [
           "Led a team of developers, organizing tasks, deadlines, and technical standards.",
           "Implemented integrated authentication between Next.js and NestJS, with traditional login and OAuth (Google and Microsoft).",

@@ -1,0 +1,149 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project-card__header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.project-card__logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
+.project-card__title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.project-card__company-date {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card__date {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.project-card__description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.project-card__tech-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 5px;
+  gap: 7px;
+}
+
+.project-card__tech-item {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 5px 10px;
+  cursor: default;
+}
+
+.project-card__tech-item:hover {
+  background-color: var(--bg-tertiary);
+}
+
+.project-card__tasks {
+  margin: 5px 0 5px 20px;
+  padding: 0;
+  color: var(--text-primary);
+}
+
+.project-card__tasks li {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.project-card__link {
+  display: inline-block;
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.6em 1.2em;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+
+.project-card__link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.project-card__image {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
+  border: none;
+  border-radius: 0;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .project-card__content {
+    width: 65%;
+  }
+
+  .project-card__company-date {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .project-card__body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .project-card__image {
+    width: 45%;
+  }
+}

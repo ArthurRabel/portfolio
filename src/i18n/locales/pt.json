@@ -98,11 +98,24 @@
     "accessGithub": "Acesse no GitHub",
     "items": [
       {
-        "title": "Desenvolvedor Full Stack",
+        "title": "Sprint Tracker",
         "company": "Instituto de educação superior de brasília ",
         "date": "07/2024 – 12/2025",
         "description": "Projeto complementar do curso, onde liderei o desenvolvimento de uma aplicação web completa para gerenciamento de tarefas.",
-        "backgroundImage": "images/iesb.png",
+        "icon": "images/icon-iesb.png",
+        "image": "images/sprint-tracker.png",
+        "tech": [
+          "Next.js",
+          "NestJS",
+          "TypeScript",
+          "Docker",
+          "Kubernetes",
+          "AWS",
+          "OAuth",
+          "PostgreSQL",
+          "Prisma",
+          "Jest"
+        ],
         "tasks": [
           "Conduzi uma equipe de desenvolvedores, organizando tarefas, prazos e padrões técnicos.",
           "Implementei autenticação integrada entre Next.js e NestJS, com login tradicional e OAuth (Google e Microsoft).",
