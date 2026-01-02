@@ -152,6 +152,31 @@
       }
     ]
   },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Send a message to discuss your project.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent successfully!",
+    "detailsTitle": "Let's talk?",
+    "myEmail": "arthur.rabel@outlook.com",
+    "myPhone": "(61) 9 9502 2477",
+    "myLocation": "Brasilia, DF",
+    "errors": {
+      "required": "This field is required",
+      "email": "Invalid email"
+    },
+    "recaptcha": {
+      "prefix": "This site is protected by reCAPTCHA and the Google",
+      "privacy": "Privacy Policy",
+      "and": "and",
+      "terms": "Terms of Service",
+      "suffix": "apply."
+    }
+  },
   "footer": {
     "rights": "© {{year}} Arthur da Mata Rabelo. All rights reserved."
   }
