@@ -1,6 +1,6 @@
 .projects {
   background-color: var(--bg-secondary);
-  padding-bottom: 4rem;
+  padding: 2rem 0 6rem;
 }
 
 .projects__wrapper {
