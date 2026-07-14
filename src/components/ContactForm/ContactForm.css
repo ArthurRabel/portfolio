@@ -26,10 +26,9 @@
 }
 
 .contact-form__contact-title {
-  font-size: 3rem;
+  font-size: clamp(1.8rem, 1rem + 4vw, 3rem);
   color: var(--text-primary);
   margin-bottom: 1rem;
-  font-weight: 600;
 }
 
 .contact-form__contact-item {
