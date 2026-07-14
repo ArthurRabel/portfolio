@@ -40,6 +40,30 @@
     "subtitle": "Em cada posição, tive a oportunidade de crescer e contribuir significativamente.",
     "items": [
       {
+        "title": "Desenvolvedor Full Stack",
+        "company": "Fator 3",
+        "date": "02/2026 – Atual",
+        "description": "Atuo no desenvolvimento e modernização de sistemas, integrando APIs de inteligência artificial e extração de dados em soluções escaláveis.",
+        "icon": "images/icon-fator3.png",
+        "tech": [
+          "TypeScript",
+          "Prisma",
+          "Jest",
+          "MariaDB",
+          "Docker",
+          "Terraform",
+          "Vite",
+          "TanStack"
+        ],
+        "tasks": [
+          "Modernização de sistemas legados através da atualização para frameworks atuais, focando em melhorias de performance e escalabilidade.",
+          "Integração e orquestração de APIs complexas (OpenAI, Bright Data) para viabilizar funcionalidades avançadas de inteligência artificial e extração de dados.",
+          "Arquitetura e implementação de novas soluções escaláveis, desde a concepção até a entrega em produção.",
+          "Atuação em ambiente ágil com foco em qualidade de software, integrando práticas de CI/CD e revisão de código para garantir entregas contínuas e seguras."
+        ],
+        "accessUrl": ""
+      },
+      {
         "title": "Desenvolvedor Full Stack (Estágio)",
         "company": "Polícia Federal",
         "date": "04/2024 – 12/2025",
