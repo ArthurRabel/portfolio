@@ -20,9 +20,13 @@
     "phone": "Telefone"
   },
   "hero": {
+    "eyebrow": "Desenvolvedor Full Stack",
     "name": "Arthur Rabelo",
-    "role": "Desenvolvedor Fullstack com experiência em Next.js, NestJS, FastAPI, TypeScript e Python",
-    "curriculum": "Currículo"
+    "role": "Experiência com Next.js, NestJS, FastAPI, TypeScript e Python.",
+    "curriculum": "Baixar Currículo",
+    "location": "Brasília, DF",
+    "updatedLabel": "Atualizado",
+    "updatedDate": "Julho de 2026"
   },
   "aboutMe": {
     "title": "Sobre mim",
