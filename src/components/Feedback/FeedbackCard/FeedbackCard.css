@@ -1,8 +1,7 @@
 .feedback-card {
   border-radius: 1px;
   padding: 16px;
-  border: 1px solid var(--border-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--border-color);
   width: 100%;
   max-width: 700px;
   margin: 16px auto;
@@ -14,7 +13,6 @@
 
 .feedback-card__name {
   font-size: 1.4rem;
-  font-weight: bold;
   margin: 0;
 }
 
@@ -24,24 +22,10 @@
 }
 
 .feedback-card__feedback {
-  font-size: 1rem;
+  font-style: italic;
+  font-size: 1.2rem;
+  font-family: "Newsreader", serif;
   color: var(--text-primary);
-  margin: 15px 0 0 20px;
   line-height: 1.5;
-}
-
-.feedback-card__feedback::before {
-  content: "“";
-  font-size: 2rem;
-  vertical-align: bottom;
-  margin-right: 4px;
-  color: var(--accent-color);
-}
-
-.feedback-card__feedback::after {
-  content: "”";
-  font-size: 2rem;
-  vertical-align: top;
-  margin-left: 4px;
-  color: var(--accent-color);
+  margin-bottom: 20px;
 }
