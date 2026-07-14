@@ -130,7 +130,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Newsreader", serif;
+  font-weight: 400;
   color: var(--text-primary);
 }
 
