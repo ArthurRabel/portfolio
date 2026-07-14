@@ -13,11 +13,11 @@ export const FeedbackCard = ({ name, role, feedback }) => {
       viewport={{ once: true, amount: 0.5 }}
       className="feedback-card"
     >
+      <p className="feedback-card__feedback">"{feedback}"</p>
       <div className="feedback-card__info">
-        <h4 className="feedback-card__name">{name}</h4>
+        <p className="feedback-card__name">{name}</p>
         <p className="feedback-card__role">{role}</p>
       </div>
-      <p className="feedback-card__feedback">{feedback}</p>
     </Motion.div>
   );
 }
