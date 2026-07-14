@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { motion } from "motion/react";
+import { motion as Motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -102,7 +102,7 @@ export const ContactForm = () => {
       <div className="contact-form__container">
         <div className="contact-form__info-column">
           <div className="contact-form__contact-info">
-            <motion.h3
+            <Motion.h3
               className="contact-form__contact-title"
               variants={textBlur(0)}
               initial="hidden"
@@ -110,8 +110,8 @@ export const ContactForm = () => {
               viewport={{ once: true }}
             >
               {t("contact.detailsTitle")}
-            </motion.h3>
-            <motion.p
+            </Motion.h3>
+            <Motion.p
               className="contact-form__contact-item"
               variants={textBlur(0.1)}
               initial="hidden"
@@ -119,8 +119,8 @@ export const ContactForm = () => {
               viewport={{ once: true }}
             >
               {t("contact.myEmail")}
-            </motion.p>
-            <motion.p
+            </Motion.p>
+            <Motion.p
               className="contact-form__contact-item"
               variants={textBlur(0.2)}
               initial="hidden"
@@ -128,8 +128,8 @@ export const ContactForm = () => {
               viewport={{ once: true }}
             >
               {t("contact.myPhone")}
-            </motion.p>
-            <motion.p
+            </Motion.p>
+            <Motion.p
               className="contact-form__contact-item"
               variants={textBlur(0.3)}
               initial="hidden"
@@ -137,9 +137,9 @@ export const ContactForm = () => {
               viewport={{ once: true }}
             >
               {t("contact.myLocation")}
-            </motion.p>
+            </Motion.p>
           </div>
-          <motion.img
+          <Motion.img
             className="contact-form__illustration"
             variants={divTransition(0.4)}
             initial="hidden"
@@ -152,7 +152,7 @@ export const ContactForm = () => {
 
         <div className="contact-form__form-column">
           <div className="contact-form__form-header">
-            <motion.h2
+            <Motion.h2
               className="contact-form__form-title"
               variants={textBlur(0.3)}
               initial="hidden"
@@ -160,9 +160,9 @@ export const ContactForm = () => {
               viewport={{ once: true }}
             >
               {t("contact.title")}
-            </motion.h2>
+            </Motion.h2>
           </div>
-          <motion.form
+          <Motion.form
             className="contact-form__form-element"
             onSubmit={handleSubmit}
             variants={divTransition(0.2)}
@@ -270,7 +270,7 @@ export const ContactForm = () => {
                 sitekey={import.meta.env.VITE_RECAPTCHA_SITE}
               />
             </div>
-          </motion.form>
+          </Motion.form>
         </div>
       </div>
     </section>

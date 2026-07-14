@@ -2,7 +2,7 @@ import { motion as Motion } from "motion/react";
 
 import "./TechCard.css";
 
-export const TechCard = ({ title, techList, delay }) => {
+export const TechCard = ({ title, techList }) => {
   const variants = {
     hidden: { y: 50, opacity: 0 },
     visible: {

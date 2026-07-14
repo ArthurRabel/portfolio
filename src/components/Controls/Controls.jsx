@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import { useTheme } from '../../contexts/ThemeContext';
+import { useTheme } from '../../contexts/useTheme';
 import { ToggleSwitch } from '../ToggleSwitch/ToggleSwitch';
 
 import './Control.css';

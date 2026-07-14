@@ -104,17 +104,17 @@ export const SocialIcons = () => {
   return (
     <nav className="social" aria-label={t("social.title")}>
       <ul className="social__list">
-        {items.map(({ key, href, Icon: SocialIcon }) => (
-          <li className="social__item" key={key}>
+        {items.map((item) => (
+          <li className="social__item" key={item.key}>
             <a
-              className={`social__link social__link--${key}`}
-              href={href}
+              className={`social__link social__link--${item.key}`}
+              href={item.href}
               target="_blank"
               rel="noopener noreferrer"
-              title={t(`social.${key}`)}
-              aria-label={t(`social.${key}`)}
+              title={t(`social.${item.key}`)}
+              aria-label={t(`social.${item.key}`)}
             >
-              <SocialIcon className="social__icon" strokeWidth={1.5} />
+              <item.Icon className="social__icon" strokeWidth={1.5} />
             </a>
           </li>
         ))}

@@ -12,7 +12,7 @@ import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { ReturnToTop } from "./components/ReturnToTop/ReturnToTop";
-import { useTheme } from "./contexts/ThemeContext";
+import { useTheme } from "./contexts/useTheme";
 import { getParticlesOptions } from "./utils/particlesConfig";
 
 import "./App.css";
